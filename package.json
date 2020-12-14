@@ -15,6 +15,7 @@
     "@types/node": "^12.0.0",
     "@types/react-dom": "^16.9.8",
     "@types/storybook__addon-info": "^5.2.3",
+    "axios": "^0.21.0",
     "classnames": "^2.2.6",
     "node-sass": "^4.14.1",
     "react": "^17.0.1",
@@ -29,9 +30,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "storybook": "start-storybook -p 6006 -s public --no-dll",
+    "storybook": "start-storybook -p 6006 -s public",
     "storybook-docs": "start-storybook --docs",
-    "build-storybook": "build-storybook -s public --no-dll"
+    "build-storybook": "build-storybook -s public"
   },
   "eslintConfig": {
     "extends": [
@@ -53,16 +54,15 @@
   },
   "devDependencies": {
     "@babel/core": "^7.12.3",
-    "@storybook/addon-actions": "^6.1.2",
-    "@storybook/addon-essentials": "^6.1.2",
-    "@storybook/addon-links": "^6.1.2",
-    "@storybook/node-logger": "^6.1.2",
+    "@storybook/addon-actions": "^6.1.10",
+    "@storybook/addon-essentials": "^6.1.10",
+    "@storybook/addon-links": "^6.1.10",
+    "@storybook/node-logger": "^6.1.10",
     "@storybook/preset-create-react-app": "^3.1.5",
-    "@storybook/react": "^6.1.2",
+    "@storybook/react": "^6.1.10",
     "@types/react": "^16.9.56",
     "@types/react-transition-group": "^4.4.0",
     "babel-loader": "^8.2.1",
-    "react-docgen-typescript-loader": "^3.7.2",
     "react-is": "^17.0.1"
   }
 }
