@@ -20,15 +20,6 @@ export interface InputProps
   onChange?: (e: ChangeEvent<HTMLInputElement>) => void;
 }
 
-/**
- * Input 输入框 通过鼠标或键盘输入内容，是最基础的表单域的包装。
- *
- * ~~~js
- * // 这样引用
- * import { Input } from 'vikingship'
- * ~~~
- * 支持 HTMLInput 的所有基本属性
- */
 export const Input: FC<InputProps> = (props) => {
   // 取出各种属性
   // 根据属性计算不同的className
